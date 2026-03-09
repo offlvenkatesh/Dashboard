@@ -1,0 +1,91 @@
+.outerDiv{
+    width:300px;
+    height:200px;
+    background-color:#191b1f;
+    border: 1.78px solid #26272d;
+    border-radius: 4px;
+}
+
+.Title{
+    width:97.44%;
+    padding-top:11px;
+    padding-left:11px;
+    color:#cbc2d1;
+    font-family:"Roboto";
+    font-size:14px;
+    font-weight:500;
+}
+
+.DataContainer{
+    width:100%;
+    height:220px;
+    display:flex;
+}
+
+.pieChartContainer{
+    width:140px;
+    display:flex;
+    justify-content:center;
+    padding-left: 5px;
+   
+}
+.DetailsContianer{
+    flex:1;
+    padding-left:8px;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    padding-top: 20px;
+}
+
+/* legend row */
+.legendItem{
+  display:flex;
+  align-items:center;
+  padding:6px 0;
+  margin-right:20px;   
+  margin-left: 20px;       /* pushes border end near % */
+  border-bottom:1px solid #2a2f36;
+  font-size:12px;
+  font-family: "Roboto";
+  font-weight: 500;
+   color:#cbc2d1;
+}
+.first{
+  border-top:1px solid #2a2f36;
+}
+
+/* color bar */
+.colorBox{
+  width:15px;
+  height:4.6px;
+  border-radius:3px;
+  margin-right:8px;
+}
+
+.available{
+  background:#1a408b;
+}
+
+.used{
+  background:#ce0f1f;
+}
+
+.reserved{
+  background:#4d4d50;
+}
+
+/* label text */
+.label{
+ color:#cbc2d1;
+}
+
+/* percentage aligned right */
+.value{
+  margin-left:auto;
+  padding-right:6px;  /* space from right edge */
+  color:#cbc2d1;
+  font-size:11px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
