@@ -1,0 +1,38 @@
+.outerDiv {
+  width: 300px;
+  height: 200px;
+  background-color: #191b1f;
+  border: 1.78px solid #26272d;
+  border-radius: 4px;
+}
+.Title {
+  width: 97.44%;
+  padding-top: 11px;
+  padding-left: 11px;
+  color: #cbc2d1;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.subTitle {
+  width: 97.44%;
+  padding-top: 11px;
+  padding-left: 11px;
+  color: #cbc2d1;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.DataContainer {
+  width: 100%;
+  height: 144px;
+  display: flex;
+}
+
+.BarChartContainer {
+  width: 290px;
+  display: flex;
+  justify-content: center;
+  padding-left: 5px;
+}

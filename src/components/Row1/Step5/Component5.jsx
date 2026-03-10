@@ -1,12 +1,12 @@
 import { Pie, PieChart } from "recharts";
-import classes from "./Component1.module.css";
+import classes from "./Component5.module.css";
 
 const RADIAN = Math.PI / 180;
 
 const data = [
-  { name: "Used", value: 820, label: "905 MiB", fill: "#ce0f1f" },
-  { name: "Available", value: 256, label: "256 MiB", fill: "#4d4d50" },
-  { name: "Reserved", value: 2888, label: "2.82 GiB", fill: "#1a408b" },
+  { name: "Used", value: 650, label: "307 MiB", fill: "#1050d4" },
+  { name: "Available", value: 600, label: "256 MiB", fill: "#4f4f54" },
+  { name: "Reserved", value: 2888, label: "1.35 GiB", fill: "#428d3b" },
 ];
 
 const renderCustomLabel = ({
@@ -37,7 +37,7 @@ const renderCustomLabel = ({
   );
 };
 
-export default function Component1() {
+export default function Component5() {
   return (
     <div className={classes.outerDiv}>
       <div className={classes.Title}>RP14 Memory Usage (%)</div>
@@ -73,13 +73,13 @@ export default function Component1() {
           <div className={classes.legendItem}>
             <span className={`${classes.colorBox} ${classes.used}`}></span>
             <span className={classes.label}>Used</span>
-            <span className={classes.value}>22%</span>
+            <span className={classes.value}>16%</span>
           </div>
 
           <div className={classes.legendItem}>
             <span className={`${classes.colorBox} ${classes.reserved}`}></span>
             <span className={classes.label}>Reserved</span>
-            <span className={classes.value}>6%</span>
+            <span className={classes.value}>13%</span>
           </div>
 
         </div>

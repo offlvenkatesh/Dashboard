@@ -27,6 +27,7 @@
     display:flex;
     justify-content:center;
     padding-left: 5px;
+   
 }
 .DetailsContianer{
     flex:1;
@@ -62,15 +63,15 @@
 }
 
 .available{
-  background:#1a408b;
+  background:#428d3b;
 }
 
 .used{
-  background:#ce0f1f;
+  background:#1050d4;
 }
 
 .reserved{
-  background:#4d4d50;
+  background:#4f4f54;
 }
 
 
