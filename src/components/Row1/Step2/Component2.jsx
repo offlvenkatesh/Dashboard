@@ -39,6 +39,7 @@ export default function Component2() {
               ticks={[8, 16, 24, 32, 40]}
               tickFormatter={(value) => `${value}GiB`}
               tick={{ fill: "#ffffff", fontSize: "20" }}
+              tickLine={false}
             />
 
             <Tooltip />

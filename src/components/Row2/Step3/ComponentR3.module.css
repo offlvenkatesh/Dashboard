@@ -1,0 +1,110 @@
+.outerDiv{
+    width:210px;
+    height:248px;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+
+.innerDiv1{
+  width:210px;
+    height:76px;
+    background-color:#191b1f;
+    border:1.78px solid #26272d;
+    border-radius:4px;
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 4px;
+}
+
+.Title{
+    padding-top:10px;
+    padding-left:12px;
+    color:#cbc2d1;
+    font-family:"Roboto";
+    font-size:13px;
+    font-weight:500;
+}
+
+.valueContainer{
+    padding-left:20px;
+    padding-top:7px;
+    padding-right: 3px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.pInnerDiv1{
+    display:flex;
+    align-items:flex-end;
+    gap:6px;
+    color:white;
+    font-size:29px;
+    font-weight:600;
+    margin:0;
+}
+
+.pInnerDiv1 span{
+    font-size:29px;
+    font-weight:500;
+    margin-left: 6px;
+    margin-bottom: 1px;
+}
+.innerDiv2{
+    width:290px;
+    height:174px;
+    background-color:#191b1f;
+    border:1.78px solid #26272d;
+    border-radius:4px;
+}
+
+.latencyContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:22px;
+    height:70%;
+}
+
+.latencyItem{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.latencyItem span{
+    font-size:10px;
+    color:#cbc2d1;
+    font-weight: 500;
+}
+
+.latencyItem h3{
+    margin:0;
+    margin-top: 5px;
+    font-size:16px;
+    color:#4ea1ff;
+}
+
+.innerDiv2 {
+ width:210px;
+  height: 189px;
+  background-color: #191b1f;
+  border: 1.78px solid #26272d;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.innerDiv2Title{
+
+
+    padding-top:10px;
+    padding-left:12px;
+    margin-bottom: 0px;
+    color:#cbc2d1;
+    font-family:"Roboto";
+    font-size:13px;
+    font-weight:500;
+}
+
