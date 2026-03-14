@@ -1,0 +1,82 @@
+.outerDiv{
+    width:225px;
+    height:210px;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+.innerDiv1{
+    width:225px;
+    height:98px;
+    background-color:#191b1f;
+    border:1.78px solid #26272d;
+    border-radius:4px;
+    display:flex;
+    flex-direction:column;
+}
+
+.Title{
+    padding-top:10px;
+    padding-left:12px;
+    color:#cbc2d1;
+    font-family:"Roboto";
+    font-size:13px;
+    font-weight:500;
+}
+
+.valueContainer{
+    padding-left:48px;
+    padding-top:16px;
+    padding-right: 35px;
+}
+
+.pInnerDiv1{
+    display:flex;
+    align-items:flex-end;
+    gap:6px;
+    color:#e03044;
+    font-size:32px;
+    font-weight:600;
+    margin:0;
+}
+
+.pInnerDiv1 span{
+    font-size:22px;
+    font-weight:500;
+    padding-bottom: 3px;
+}
+.innerDiv2{
+    width:225px;
+    height:92px;
+    background-color:#191b1f;
+    border:1.78px solid #26272d;
+    border-radius:4px;
+}
+
+.latencyContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:22px;
+    height:70%;
+}
+
+.latencyItem{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.latencyItem span{
+    font-size:10px;
+    color:#cbc2d1;
+    font-weight: 500;
+}
+
+.latencyItem h3{
+    margin:0;
+    margin-top: 5px;
+    font-size:23px;
+    color:#d52e42;
+}

@@ -45,9 +45,10 @@ const CpuChart = memo(() => {
             dataKey="value"
             position="right"
             formatter={()=>'700 MHz'}
-            style={{ fill: "#6b8fee", fontSize: 10 }}
+            style={{ fill: "#6b8fee", fontSize: 9 }}
           />
-        </Bar>
+        </Bar>x;
+    padding-left: 8px;
         <Bar dataKey="uv" ></Bar>
       </BarChart>
     </ResponsiveContainer>

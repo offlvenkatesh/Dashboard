@@ -64,6 +64,7 @@ const data = [
               tickFormatter={(value) => `${value} %`}
               tick={{ fill: "#ffffff", fontSize: "20" }}
               tickLine={false}
+              axisLine={false}
             />
             <Tooltip />
             <Area

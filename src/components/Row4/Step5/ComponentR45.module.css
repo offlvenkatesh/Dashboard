@@ -1,6 +1,6 @@
 .ContainerDiv {
-  width: 500px;
-  height: 200px;
+  width: 512px;
+  height: 247px;
   background-color: #191b1f;
   border: 1.78px solid #26272d;
   border-radius: 4px;
@@ -15,7 +15,6 @@
   font-weight: 500;
 }
 
-
 .DataContainer{
     width:100%;
    height: 173px;
@@ -23,23 +22,25 @@
 }
 
 .AreaChartContainer{
-    width:260px;
+    width:220px;
     display:flex;
     justify-content:center;
     align-items: center;
-    padding-left: 8px;
+    margin-top: 29px;
+    padding-left: 5px;
 }
 .MainContainer{
   display:flex;
+  margin-top: 7px;
   flex-direction:column;  
-  width:100%;
+  width:287px;
 }
 
 .TitleContainer{
   display: flex;
   height: 23px;
   width: 100%;
-  gap:86px;
+
   align-items: center;
 }
 
@@ -49,6 +50,16 @@
   font-family: "Roboto";
   color: #5a80c8 ;
   padding-left: 20px;
+  padding-right: 32px;
+  margin: 0; 
+}
+.h6ContainerL{
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #5a80c8 ;
+  padding-left: 10px;
+  padding-right: 3px;
   margin: 0; 
 }
 
@@ -96,17 +107,41 @@
   background:#ccccdd;
 }
 
-/* label text */
+
 .label{
  color:#cbc2d1;
 }
 
-/* percentage aligned right */
+
 .value{
-  margin-left:auto;
-  padding-right:6px;  /* space from right edge */
+padding-left: 13px;
+  padding-right:6px; 
   color:#cbc2d1;
   font-size:10px;
   font-family: "Roboto";
   font-weight: 500;
+}
+
+.value1{
+padding-left: 29px;
+  padding-right:6px; 
+  color:#cbc2d1;
+  font-size:10px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.value2{
+padding-left: 30px;
+  padding-right:6px; 
+  color:#cbc2d1;
+  font-size:10px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.Divspan{
+  font-size: 11px;
+  margin-left: 10px;
+  color: #6b9bf9;
 }

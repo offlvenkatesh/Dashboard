@@ -40,6 +40,7 @@ export default function Component2() {
               tickFormatter={(value) => `${value}GiB`}
               tick={{ fill: "#ffffff", fontSize: "20" }}
               tickLine={false}
+              axisLine={false}
             />
 
             <Tooltip />
@@ -76,41 +77,42 @@ export default function Component2() {
             />
           </AreaChart>
         </div>
-       <div className={classes.MainContainer}>
+        <div className={classes.MainContainer}>
+          <div className={classes.TitleContainer}>
+            <h6 className={classes.h6Container}>Name</h6>
+            <h6 className={classes.h6Container}>Last</h6>
+          </div>
 
-  <div className={classes.TitleContainer}>
-    <h6 className={classes.h6Container}>Name</h6>
-    <h6 className={classes.h6Container}>Last</h6>
-  </div>
+          <div className={classes.DetailsContianer}>
+            <div className={classes.legendItem}>
+              <span className={`${classes.colorBox} ${classes.used}`}></span>
+              <span className={classes.label}>Physical Memory</span>
+              <span className={classes.value}>31.9 GiB</span>
+            </div>
 
-  <div className={classes.DetailsContianer}>
-
-
-    <div className={classes.legendItem}>
-      <span className={`${classes.colorBox} ${classes.used}`}></span>
-      <span className={classes.label}>Physical Memory</span>
-      <span className={classes.value}>31.9 GiB</span>
-    </div>
-
-    <div className={classes.legendItem}>
-      <span className={`${classes.colorBox} ${classes.reserved}`}></span>
-      <span className={classes.label}>Virtual Memory</span>
-      <span className={classes.value}>4.75 GiB</span>
-    </div>
-    <div className={classes.legendItem}>
-      <span className={`${classes.colorBox} ${classes.reserved1}`}></span>
-      <span className={classes.label}>Used Virtual Memory</span>
-      <span className={classes.value}>796 MiB</span>
-    </div>
-        <div className={classes.legendItem}>
-      <span className={`${classes.colorBox} ${classes.reserved2}`}></span>
-      <span className={classes.label}>Usage</span>
-      <span className={classes.value}>16%</span>
-    </div>
-  </div>
-
-</div>
-
+            <div className={classes.legendItem}>
+              <span
+                className={`${classes.colorBox} ${classes.reserved}`}
+              ></span>
+              <span className={classes.label}>Virtual Memory</span>
+              <span className={classes.value}>4.75 GiB</span>
+            </div>
+            <div className={classes.legendItem}>
+              <span
+                className={`${classes.colorBox} ${classes.reserved1}`}
+              ></span>
+              <span className={classes.label}>Used Virtual Memory</span>
+              <span className={classes.value}>796 MiB</span>
+            </div>
+            <div className={classes.legendItem}>
+              <span
+                className={`${classes.colorBox} ${classes.reserved2}`}
+              ></span>
+              <span className={classes.label}>Usage</span>
+              <span className={classes.value}>16%</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

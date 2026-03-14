@@ -37,7 +37,7 @@ const CpuChart = memo(() => {
 
         <YAxis
           type="category"
-          dataKey="name"
+          dataKey="name"name
           tick={{ fill: "#cbc2d1", fontSize: 11 }}
           width={50}
           axisLine={false}
