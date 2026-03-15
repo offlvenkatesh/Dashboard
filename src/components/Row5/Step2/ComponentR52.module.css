@@ -1,13 +1,13 @@
 .ContainerDiv {
-  width: 473px;
-  height: 247px;
+  width: 450px;
+  height: 228px;
   background-color: #191b1f;
   border: 1.78px solid #26272d;
   border-radius: 4px;
 }
 .MainTitle {
   width: 97.44%;
-  padding-top: 11px;
+  padding-top: 19px;
   padding-left: 11px;
   color: #cbc2d1;
   font-family: "Roboto";
@@ -23,25 +23,25 @@
 }
 
 .AreaChartContainer{
-    width:260px;
+    width:280px;
     display:flex;
     justify-content:center;
     align-items: center;
+    
     margin-top: 20px;
-    padding-left: 8px;
 }
 .MainContainer{
   display:flex;
   flex-direction:column;  
-  width:100%;
-  margin-top: 6px;
+  width:220px;
+  margin-top: 12px;
 }
 
 .TitleContainer{
   display: flex;
   height: 23px;
   width: 100%;
-  gap:85px;
+  gap:74px;
   align-items: center;
 }
 

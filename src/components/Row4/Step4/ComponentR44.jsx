@@ -7,7 +7,7 @@ export default function ComponentR44() {
   useEffect(() => {
     const CountIncreasing = setInterval(() => {
       setCount((prev) => prev + 1);
-    }, 1000);
+    }, 3000);
 
     return () => clearInterval(CountIncreasing);
   }, []);

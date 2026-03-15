@@ -43,7 +43,7 @@ const data = [
 
   return (
     <div className={classes.ContainerDiv}>
-      <div className={classes.MainTitle}>Memory History</div>
+      <div className={classes.MainTitle}>CPU Usage (%)</div>
       <div className={classes.DataContainer}>
         <div className={classes.AreaChartContainer}>
           <AreaChart

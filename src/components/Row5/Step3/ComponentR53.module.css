@@ -1,0 +1,58 @@
+.ContainerDiv {
+  width: 330px;
+  height: 228px;
+  background-color: #191b1f;
+  border: 1.78px solid #26272d;
+  border-radius: 4px;
+}
+.MainTitle {
+  width: 97.44%;
+  padding-top: 19px;
+  padding-left: 11px;
+  color: #cbc2d1;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.DataContainer{
+  width:280px;
+  margin-top: 10px;
+  height:173px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:28px;
+  padding-left:12px;
+}
+
+.row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.label{
+  font-family:"Roboto";
+  font-size:17px;
+  color:#cbc2d1;
+  font-weight:500;
+}
+
+
+.value{
+  font-family:"Roboto";
+  font-size:23px;
+  font-weight:600;
+}
+
+.blue{
+  color:#5ea1ff;
+}
+
+.green{
+  color:#7bf55f;
+}
+
+.purple{
+  color:#c98cff;
+}

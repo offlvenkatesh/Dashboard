@@ -1,0 +1,41 @@
+.ContainerDiv {
+  width: 400px;
+  height: 228px;
+  background-color: #191b1f;
+  border: 1.78px solid #26272d;
+  border-radius: 4px;
+}
+
+.MainTitle {
+  padding-top: 11px;
+  padding-left: 11px;
+  color: #cbc2d1;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.DataContainer{
+  width:100%;
+  height:173px;
+  display:flex;
+  align-items:center;
+}
+
+.YAxisLabel{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color:#5aa0ff;
+  font-size:12px;
+  margin-left:17px;
+}
+
+.AreaChartContainer{
+  width:350px;
+  height:160px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:30px;
+  margin-left:-18px;
+}

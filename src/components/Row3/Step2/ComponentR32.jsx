@@ -10,22 +10,22 @@ import {
 export default function ComponentR32() {
   const data = [
     { name: "Jan", uv: 23, ux: 3, pv: 60, amt: 48 },
-    { name: "Feb", uv: 36, ux: 2.2, pv: 61.1, amt: 42.5 },
-    { name: "Mar", uv: 26, ux: 6.8, pv: 62.0, amt: 41.5 },
-    { name: "Apr", uv: 36, ux: 4.9, pv: 60.2, amt: 45.2 },
-    { name: "May", uv: 26, ux: 6.3, pv: 61.1, amt: 43.8 },
-    { name: "Jun", uv: 36, ux: 5.6, pv: 62.0, amt: 44.4 },
-    { name: "Jul", uv: 26, ux: 6.5, pv: 61.3, amt: 45.6 },
-    { name: "Aug", uv: 36, ux: 4.8, pv: 61.1, amt: 43.3 },
-    { name: "Sep", uv: 26, ux: 6.2, pv: 62.2, amt: 41.4 },
-    { name: "Oct", uv: 36, ux: 5.3, pv: 60.0, amt: 42.6 },
-    { name: "Nov", uv: 26, ux: 6.7, pv: 61.1, amt: 40.2 },
-    { name: "Dec", uv: 36, ux: 5.0, pv: 60.3, amt: 41.8 },
+    { name: "Feb", uv: 26, ux: 2.2, pv: 61.1, amt: 42.5 },
+    { name: "Mar", uv: 23, ux: 6.8, pv: 62.0, amt: 41.5 },
+    { name: "Apr", uv: 26, ux: 4.9, pv: 60.2, amt: 45.2 },
+    { name: "May", uv: 23, ux: 6.3, pv: 61.1, amt: 43.8 },
+    { name: "Jun", uv: 26, ux: 5.6, pv: 62.0, amt: 44.4 },
+    { name: "Jul", uv: 23, ux: 6.5, pv: 61.3, amt: 45.6 },
+    { name: "Aug", uv: 26, ux: 4.8, pv: 61.1, amt: 43.3 },
+    { name: "Sep", uv: 23, ux: 6.2, pv: 62.2, amt: 41.4 },
+    { name: "Oct", uv: 26, ux: 5.3, pv: 60.0, amt: 42.6 },
+    { name: "Nov", uv: 23, ux: 6.7, pv: 61.1, amt: 40.2 },
+    { name: "Dec", uv: 26, ux: 5.0, pv: 60.3, amt: 41.8 },
   ];
 
   return (
     <div className={classes.ContainerDiv}>
-      <div className={classes.MainTitle}>Memory History</div>
+      <div className={classes.MainTitle}>System Temperature (°C)</div>
       <div className={classes.DataContainer}>
         <div className={classes.AreaChartContainer}>
           <AreaChart
@@ -42,7 +42,7 @@ export default function ComponentR32() {
             <CartesianGrid strokeDasharray="0" vertical={false} />
             <XAxis hide={true} />
             <YAxis
-              ticks={[2, 12, 24, 36, 48, 58]}
+              ticks={[4, 12, 24, 36, 48, 58]}
               padding={{ top: 20, bottom: 10 }}
               tickFormatter={(value) => `${value} °C`}
               tick={{ fill: "#ffffff", fontSize: 20 }}
@@ -53,7 +53,6 @@ export default function ComponentR32() {
 
             <Tooltip />
 
-            {/* Blue flat line at 36 °C */}
             <Area
               type="bump"
               dataKey="uv"
@@ -62,7 +61,6 @@ export default function ComponentR32() {
               fill="none"
             />
 
-            {/* Pink/red wiggly line at ~46 °C */}
             <Area
               type="monotone"
               dataKey="ux"
@@ -71,7 +69,6 @@ export default function ComponentR32() {
               fill="none"
             />
 
-            {/* Green smooth line at 40 °C */}
             <Area
               type="step"
               dataKey="pv"
@@ -79,9 +76,7 @@ export default function ComponentR32() {
               strokeWidth={2}
               fill="none"
             />
-
-            {/* Orange sawtooth line at ~38 °C */}
-            <Area
+   <Area
               type="monotoneY"
               dataKey="amt"
               stroke="#a33f4a"

@@ -1,6 +1,6 @@
 .ContainerDiv {
-  width: 512px;
-  height: 247px;
+  width: 385px;
+height: 199px;
   background-color: #191b1f;
   border: 1.78px solid #26272d;
   border-radius: 4px;
@@ -26,14 +26,14 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    margin-top: 29px;
+    margin-top: 1%;
     padding-left: 5px;
 }
 .MainContainer{
   display:flex;
-  margin-top: 7px;
+  margin-top: 10px;
   flex-direction:column;  
-  width:287px;
+  width:150px;
 }
 
 .TitleContainer{
@@ -71,11 +71,12 @@
   margin-right:20px;   
   margin-left: 20px;       /* pushes border end near % */
   border-top:1px solid #2a2f36;
-  border-bottom:1px solid #2a2f36;
   font-size:10px;
   font-family: "Roboto";
   font-weight: 500;
    color:#cbc2d1;
+
+
 }
 .first{
   border-top:1px solid #2a2f36;
@@ -114,10 +115,10 @@
 
 
 .value{
-padding-left: 13px;
+padding-left: 16px;
   padding-right:6px; 
   color:#cbc2d1;
-  font-size:10px;
+  font-size:8px;
   font-family: "Roboto";
   font-weight: 500;
 }
@@ -131,14 +132,7 @@ padding-left: 29px;
   font-weight: 500;
 }
 
-.value2{
-padding-left: 30px;
-  padding-right:6px; 
-  color:#cbc2d1;
-  font-size:10px;
-  font-family: "Roboto";
-  font-weight: 500;
-}
+
 
 .Divspan{
   font-size: 11px;

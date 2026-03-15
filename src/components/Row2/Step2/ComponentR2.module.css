@@ -31,8 +31,10 @@
 }
 .MainContainer{
   display:flex;
-  flex-direction:column;  /* stack vertically */
+  flex-direction:column; 
   width:100%;
+
+
 }
 
 .TitleContainer{
